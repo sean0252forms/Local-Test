@@ -1,11 +1,11 @@
 var in1, in2, in3, in4, in5, output, items, message, messageID, messageContents
+output = document.getElementById("output")
 function btnSubmitInput() {
     in1 = document.getElementById("in1").value
     in2 = document.getElementById("in2").value
     in3 = document.getElementById("in3").value
     in4 = document.getElementById("in4").value
     in5 = document.getElementById("in5").value
-    output = document.getElementById("output")
     generate()
     console.log('done')
 }
@@ -28,7 +28,7 @@ function generateMessage() {
 }
 function createMessageContents() {
     messageContents = ''
-    for (i = 0; i < items.length(); i++) {
+    for (i = 0; i < items.length; i++) {
         messageContents += items[i]
         messageContents += "<br>"
     }
