@@ -6,7 +6,6 @@ function btnSubmitInput() {
     in3 = document.getElementById("in3").value
     in4 = document.getElementById("in4").value
     in5 = document.getElementById("in5").value
-    
     generate()
     console.log('done')
 }
