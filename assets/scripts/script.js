@@ -6,6 +6,7 @@ function btnSubmitInput() {
     in4 = document.getElementById("in4").value
     in5 = document.getElementById("in5").value
     output = document.getElementById("output")
+    generate()
     console.log('done')
 }
 function createArray() {
